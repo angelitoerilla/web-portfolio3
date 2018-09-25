@@ -1,0 +1,132 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.jumbotron {
+	height: 100vh;
+	background-image: url("../images/stone.jpg");
+	background-repeat: none;
+	background-size: cover;
+}
+
+.container2 {
+	background: #f2f2f2;
+	padding-top: 75px;
+	padding-bottom: 20px;
+	margin-top: 130px; 
+	width: 100%;
+	opacity: 0.5;
+}
+
+.container2:hover{
+	opacity: 0.8;
+}
+
+#jumbotext {
+	color: #141414;
+}
+
+#myname {
+	color: black;
+	letter-spacing: 8px;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 8em;
+}
+
+.hrline {
+	background-color: #141414;
+}
+
+.nav-text {
+	color: white;
+}
+
+#burger {
+	background-color: white;
+}
+
+#myid {
+	border-radius: 20px;
+	margin: auto;
+	display: block;
+	border: 1px solid grey;
+}
+
+
+#row2 {	
+	background-color: lightgrey;
+	padding-top: 30px;
+}
+
+#row4 {
+	padding-top: 25px;
+	background-color: lightgrey;
+}
+
+#footer {
+    text-align: center;
+    background-color: lightgrey;
+}
+
+
+/*for mobile*/
+@media only screen and (max-width: 450px) {
+
+	#jumbocontainer {
+		width: 90%;
+		margin: 120px auto;
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
+
+	#myname {
+		font-size: 3rem;
+	}
+
+	#jumbotext {
+	font-size: 1rem;
+
+	#col2 {
+		margin-top: 1rem;
+	}
+
+	#linkin-btn {
+		margin-bottom: 8px;
+	}
+}
+
+
+
+/*for tablet*/
+@media only screen and (min-width: 451px)
+and (max-width: 768px) {
+	
+	#jumbocontainer {
+		width: 85%;
+		margin: 360px auto;
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
+
+	#myname {
+		font-size: 6.0rem;
+	}
+
+	#jumbotext {
+	font-size: 2.0rem;
+		}
+	#linkin-btn {
+		margin-bottom: 8px;
+	}
+}
+
+/*for desktop*/
+@media only screen and (min-width: 769px)
+and (max-width: 1200px) {
+	#myname {
+		font-size: 6.0rem;
+	}
+
+}
